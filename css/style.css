@@ -1,9 +1,76 @@
-body {
-    background: #868686;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(22, 22, 22);
-    text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-/* TODO center everything */
-/* TODO set a very bright flashy background */
+body {
+  background-color: #afb0b4;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2c2b2b;
+  text-align: center;
+}
+
+.board {
+  width: auto;
+  margin: 60px auto;
+
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+
+.cell {
+  width: 35px;
+  height: 35px;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  border-style: solid;
+  border-width: 4px;
+  background-color: #c6c6c6;
+}
+
+/* .board-cells {
+  width: 35px;
+  height: 35px;
+  border-radius: 7px;
+} */
+
+.cell-clicked {
+    background: #313131;
+  }
+  
+  .x1 {
+    color: blue;
+  }
+  
+  .x2 {
+    color: green;
+  }
+  
+  .x3 {
+    color: red;
+  }
+  
+  .x4 {
+    color: navy;
+  }
+  
+  .x5 {
+    color: brown;
+  }
+  
+  .x6 {
+    color: teal;
+  }
+  
+  .x7 {
+    color: black;
+  }
+  
+  .x8 {
+    color: gray;
+  }
+  
